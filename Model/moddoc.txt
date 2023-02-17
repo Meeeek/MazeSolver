@@ -1,0 +1,10 @@
+There is one main object
+That is a Maze object or MObject
+
+Maze object is x by y
+Each element is a 
+
+Maze Entry, or MEntry
+
+MEntry is entries into the maze
+Needs to contain left, up, right, down

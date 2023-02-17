@@ -1,0 +1,5 @@
+Each algorithm is a class
+each class stores a reference to the maze
+each class has a step function, this is because this program is single threaded
+we can't do the solve logic within the py without using multithreading, but in the future
+may want to pause at certain steps or step through etc
