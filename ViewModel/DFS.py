@@ -1,5 +1,6 @@
-import AlgoBase
+from ViewModel.AlgoBase import AlgoBase
 
-class BFS(AlgoBase):
-    def step(self):
-        pass
+class DFS(AlgoBase):
+
+    def step(self) -> bool:
+        return False

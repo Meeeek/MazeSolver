@@ -1,9 +1,8 @@
-
-import MEntry
+from Model.MEntry import MEntry
 
 class Maze:
 
-    x, y = 50, 50  # 50 by 50 squares
+    x, y = 50, 10  # 50 by 50 squares
 
     def __init__(self) -> None:
         self.mObject = []
@@ -12,7 +11,7 @@ class Maze:
         for i in range(self.x):
             newlentry = []
             for j in range(self.y):
-                newlentry.append(MEntry())
+                newlentry.append(MEntry((i,j)))
             self.mObject.append(newlentry)
 
         # initialize all left
@@ -37,3 +36,7 @@ class Maze:
 
     def clear_entries(self) -> None:
         self.__init__()
+    
+    # return the entry at cp
+    def get(self, cp) -> MEntry:
+        return self.mObject[cp[0]][cp[1]]
