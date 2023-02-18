@@ -6,3 +6,6 @@ class AlgoBase:
 
     def step(self):
         print("Not implemented") # single step in algo
+
+    def change_cp(self, cp):
+        pass
