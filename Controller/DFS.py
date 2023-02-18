@@ -1,4 +1,4 @@
-from ViewModel.AlgoBase import AlgoBase
+from Controller.AlgoBase import AlgoBase
 from Model.Maze import Maze
 
 class DFS(AlgoBase):

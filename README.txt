@@ -1,11 +1,9 @@
-This is a maze solver, partially to practice different algorithms and their effectiveness
+This is a maze solver, Uses BFS to solve and find the minimum path from a start point and end point given a maze
 
-But it is also partially to practice MVVM
-
-Model View ViewModel
+Model View Controller
 
 Model -- in this case storage, we store sites and their status
 
 view -- in this case this would be pygame
 
-ViewModel -- this is all the logic, all the different solving algorithms
+Controller -- Controls the model and passes data to view
