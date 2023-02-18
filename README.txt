@@ -7,3 +7,7 @@ Model -- in this case storage, we store sites and their status
 view -- in this case this would be pygame
 
 Controller -- Controls the model and passes data to view
+
+'s' to set start point
+'e' to set end point
+Mousedown to set obstacles
