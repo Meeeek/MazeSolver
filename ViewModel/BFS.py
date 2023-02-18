@@ -11,11 +11,8 @@ class BFS(AlgoBase):
         self.q.put(maze.get(cp))
 
     def step(self) -> bool:
-        print(f'At {self.cp}')
         ele = self.q.get()
-        if ele: 
-            print(f'Element {ele.cp}')
-        else:
+        if not ele: 
             return True
 
         # get and append neighbors
@@ -26,6 +23,6 @@ class BFS(AlgoBase):
             elif o and o.status == 4:
                 return True # found target
         
-        if ele: ele.status = 2
+        ele.status = 2
 
         return False

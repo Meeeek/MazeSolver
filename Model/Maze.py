@@ -2,7 +2,7 @@ from Model.MEntry import MEntry
 
 class Maze:
 
-    x, y = 50, 10  # 50 by 50 squares
+    x, y = 50, 50  # 50 by 50 squares
 
     def __init__(self) -> None:
         self.mObject = []
